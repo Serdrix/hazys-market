@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hazy's Market</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
   <style>
     body {
-      margin: 0;
-      background-color: #000;
-      overflow: hidden;
+      background-color: #111;
+      color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      padding: 40px 20px;
     }
-    .container {
-      width: 100vw;
-      height: 100vh;
-      overflow: auto;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      touch-action: pinch-zoom;
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
     }
-    img {
-      max-width: none;
-      width: auto;
-      height: auto;
+    .button {
+      display: inline-block;
+      padding: 15px 25px;
+      font-size: 18px;
+      background-color: #1e90ff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #0e70d0;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <img src="menu.png" alt="Hazy's Market Menu">
-  </div>
+  <h1>HAZY'S MARKET</h1>
+  <a href="menu.png" download class="button">Download Full Menu (High Quality)</a>
 </body>
 </html>
